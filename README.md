@@ -13,13 +13,12 @@ An open-source application for automating attendance tracking using real-time fa
 ## Installation
 
 1. Clone this repository.
-2. Install the required dependencies. Note that this project requires a specific version of OpenCV and NumPy to ensure compatibility with dlib.
+2. Create a venv and install the requirements.txt
 
 ```bash
-pip install numpy<2
-pip install opencv-python<=4.11.0.86
-pip install dlib-bin face_recognition --no-deps
-pip install pillow mediapipe pandas
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
 
 ```
 
@@ -28,7 +27,7 @@ pip install pillow mediapipe pandas
 Run the main launcher script to start the application:
 
 ```bash
-python main_dashboard.py
+python mainDashboard.py
 
 ```
 
@@ -55,7 +54,7 @@ python main_dashboard.py
 
 ## File Structure
 
-* `main_dashboard.py`: The entry point for the application. Launches the camera or the viewer.
+* `mainDashboard.py`: The entry point for the application. Launches the camera or the viewer.
 * `faceMedia.py`: Handles video capture, face detection, and recognition logic.
 * `attendanceViewer.py`: Contains the GUI code for the analytics dashboard (Tkinter).
 * `attendanceAnalytics.py`: Handles data processing and CSV reading/writing.
