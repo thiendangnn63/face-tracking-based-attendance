@@ -1,4 +1,3 @@
-```markdown
 # Face Tracking Attendance System
 
 An open-source application for automating attendance tracking using real-time face recognition. This system uses computer vision to identify students from a live camera feed, logs their attendance to a CSV file, and provides a graphical dashboard for teachers to view statistics and reports.
