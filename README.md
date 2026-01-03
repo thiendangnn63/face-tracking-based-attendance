@@ -24,12 +24,25 @@ pip install -r requirements.txt
 
 ## Usage
 
+### A. Run from source
+
 Run the main launcher script to start the application:
 
 ```bash
 python mainDashboard.py
 
 ```
+
+
+
+### B. Run executable file
+
+If you have downloaded or built the standalone `.exe` files, no Python installation is required.
+
+* Ensure both `AttendanceDashboard.exe` and `faceMedia.exe` are in the same folder.
+* Double-click `AttendanceDashboard.exe` to launch the application.
+
+
 
 ### 1. Camera Mode
 
